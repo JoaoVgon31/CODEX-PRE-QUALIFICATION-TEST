@@ -1,7 +1,7 @@
 import React from 'react';
 
 function ExercisesMenu(): JSX.Element {
-	return <div></div>;
+	return <div />;
 }
 
 export default ExercisesMenu;
