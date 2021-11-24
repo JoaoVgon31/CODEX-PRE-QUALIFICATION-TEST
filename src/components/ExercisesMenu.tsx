@@ -3,14 +3,14 @@ import { Button, ButtonGroup } from '@material-ui/core';
 
 function ExercisesMenu(): JSX.Element {
 	const menuItems = [
-		'Exercício 1',
-		'Exercício 2',
-		'Exercício 3',
-		'Exercício 4',
-		'Exercício 5',
-		'Exercício 6',
-		'Exercício 7',
-		'Exercício 8',
+		'Exercise 1',
+		'Exercise 2',
+		'Exercise 3',
+		'Exercise 4',
+		'Exercise 5',
+		'Exercise 6',
+		'Exercise 7',
+		'Exercise 8',
 	];
 
 	return (
