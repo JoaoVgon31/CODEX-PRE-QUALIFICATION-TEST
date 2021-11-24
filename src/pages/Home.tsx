@@ -1,5 +1,5 @@
 import React from 'react';
-import ExercisesMenu from '../common/ExercisesMenu';
+import ExercisesMenu from '../components/ExercisesMenu';
 
 function Home(): JSX.Element {
 	return (
