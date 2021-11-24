@@ -23,7 +23,9 @@ function ExercisesMenu(): JSX.Element {
 				size="large"
 			>
 				{menuItems.map((item) => (
-					<Button key={menuItems.indexOf(item)}>{item}</Button>
+					<Button key={menuItems.indexOf(item)} href={`/exercise${(menuItems.indexOf(item) + 1).toString()}`}>
+						{item}
+					</Button>
 				))}
 			</ButtonGroup>
 		</div>
