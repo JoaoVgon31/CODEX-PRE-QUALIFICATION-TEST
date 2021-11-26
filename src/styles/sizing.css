@@ -10,6 +10,14 @@
 	width: 100%;
 }
 
+.max-w-4\/5 {
+	max-width: 80%;
+}
+
 .h-full-screen {
 	height: 100vh;
+}
+
+.h-auto {
+	height: auto;
 }

@@ -5,3 +5,7 @@
 .lg-text {
 	font-size: 3rem;
 }
+
+.text-overflow-break {
+	overflow-wrap: anywhere;
+}
