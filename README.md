@@ -12,7 +12,7 @@ I will use a new branch for each exercise and merge it into main only when it is
 
 ## How to run the code
 
-All the exercises can be saw and/or executed in this website: link for the website still unavailable. It contains a menu for accessing which one of the exercises. In case that an exercise doesn't need a code, the menu can be used to access the referent resolution, and in case that an exercise was not solved, there will be a page that shows a message informing that.
+All the exercises can be saw and/or executed in this website: [access website](https://codex-pre-qualification-test.web.app/). It contains a menu for accessing which one of the exercises. In case that an exercise doesn't need a code, the menu can be used to access the referent resolution, and in case that an exercise was not solved, there will be a page that shows a message informing that.
 
 ## About the website
 
