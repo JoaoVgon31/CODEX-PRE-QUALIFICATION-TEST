@@ -6,6 +6,10 @@
 	width: 25vw;
 }
 
+.w-full {
+	width: 100%;
+}
+
 .h-full-screen {
 	height: 100vh;
 }
