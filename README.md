@@ -22,10 +22,10 @@ The website was built using React JS with Typescript initialized with Create Rea
 
 | Exercise | Description                                             | Is Completed? |
 | -------- | ------------------------------------------------------- | ------------- |
-| 1        | Validate CNPJ format and check digits                   | No            |
+| 1        | Validate CNPJ format and check digits                   | Yes           |
 | 2        | Test if two rectangles intersect                        | No            |
 | 3        | Compute the area of intersection between two rectangles | No            |
-| 4        | Simple todo list                                        | No            |
+| 4        | Simple todo list                                        | Yes           |
 | 5        | Rest Client - World Clock                               | No            |
 | 6        | Rest Server - World Clock                               | No            |
 | 7        | Entity Relationship Diagram - Simple Order Manager      | No            |
