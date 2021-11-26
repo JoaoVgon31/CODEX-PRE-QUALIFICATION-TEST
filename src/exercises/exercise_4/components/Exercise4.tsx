@@ -6,6 +6,7 @@ import TodoList from './TodoList';
 
 function Exercise4(): JSX.Element {
 	const [todoList, setTodoList]: any[] = useState([]);
+	const [newTodoDescription, setNewTodoDescription] = useState('');
 
 	useEffect(() => {
 		const db = firebase.firestore();
@@ -17,11 +18,22 @@ function Exercise4(): JSX.Element {
 		});
 	}, []);
 
+	const handleCreateTodo = (): void => {
+		const db = firebase.firestore();
+		db.collection('Todos').add({ description: newTodoDescription });
+		setNewTodoDescription('');
+	};
+
 	return (
 		<div className="flex justify-center align-start w-full-screen h-full-screen">
 			<div className="flex flex-col justify-center align-center w-1/4-screen">
 				<div className="flex justify-between w-full align-center">
 					<TextField
+						value={newTodoDescription}
+						onChange={(e): void => {
+							e.preventDefault();
+							setNewTodoDescription(e.target.value);
+						}}
 						multiline
 						maxRows={4}
 						id="todo"
@@ -29,7 +41,7 @@ function Exercise4(): JSX.Element {
 						variant="outlined"
 						margin="normal"
 					/>
-					<Fab color="primary" aria-label="add">
+					<Fab color="primary" aria-label="add" onClick={handleCreateTodo}>
 						<AddIcon />
 					</Fab>
 				</div>
