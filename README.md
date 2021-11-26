@@ -21,7 +21,7 @@ The website was built using React JS with Typescript initialized with Create Rea
 ## Exercises completed
 
 | Exercise | Description                                             | Is Completed? |
-| -------- | ------------------------------------------------------- | ------------- | --- |
+| -------- | ------------------------------------------------------- | ------------- |
 | 1        | Validate CNPJ format and check digits                   | No            |
 | 2        | Test if two rectangles intersect                        | No            |
 | 3        | Compute the area of intersection between two rectangles | No            |
@@ -29,6 +29,6 @@ The website was built using React JS with Typescript initialized with Create Rea
 | 5        | Rest Client - World Clock                               | No            |
 | 6        | Rest Server - World Clock                               | No            |
 | 7        | Entity Relationship Diagram - Simple Order Manager      | No            |
-| 8        | UX - Prototype for creating new projects                | No            | No  |
+| 8        | UX - Prototype for creating new projects                | No            |
 
 > Written with [StackEdit](https://stackedit.io/).
