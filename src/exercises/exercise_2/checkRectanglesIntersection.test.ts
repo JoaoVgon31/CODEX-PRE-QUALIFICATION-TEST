@@ -13,7 +13,7 @@ const rectanglesPairsWithIntersection: Array<[iRectangle, iRectangle]> = [
 ];
 const rectanglesPairsWithoutIntersection: Array<[iRectangle, iRectangle]> = [
 	[
-		{ point1: { x: 3, y: 5 }, point2: { x: 11, y: 11 } },
+		{ point1: { x: 7, y: 2 }, point2: { x: 13, y: 7 } },
 		{ point1: { x: 11, y: 11 }, point2: { x: 15, y: 13 } },
 	],
 ];
