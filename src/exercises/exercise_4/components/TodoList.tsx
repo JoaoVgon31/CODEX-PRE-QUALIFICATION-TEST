@@ -13,7 +13,7 @@ function TodoList({ todoList }: TodoListProperties): JSX.Element {
 			{todoList.map((todo) => (
 				<div className="flex justify-between w-full align center margin-y-small border-bottom-solid padding-y-small">
 					<div className="flex h-auto align-center text-overflow-break max-w-4/5">{todo.description}</div>
-					<Fab className="text-red" size="small" aria-label="add">
+					<Fab size="small" aria-label="add">
 						<DeleteIcon />
 					</Fab>
 				</div>

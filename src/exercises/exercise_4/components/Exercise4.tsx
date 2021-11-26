@@ -1,14 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Fab, TextField } from '@material-ui/core';
 import AddIcon from '@mui/icons-material/Add';
+import firebase from '../../../config/firebase';
 import TodoList from './TodoList';
 
 function Exercise4(): JSX.Element {
-	const [todoList, setTodoList] = useState([
-		{ id: 'a', description: 'teste' },
-		{ id: 'a', description: 'teste' },
-		{ id: 'a', description: 'teste' },
-	]);
+	const [todoList, setTodoList]: any[] = useState([]);
+
+	useEffect(() => {
+		const db = firebase.firestore();
+		const todosCollection = db.collection('Todos');
+		todosCollection.onSnapshot((snapshot) => {
+			const todosData: any[] = [];
+			snapshot.forEach((doc) => todosData.push({ ...doc.data(), id: doc.id }));
+			console.log(todosData);
+			setTodoList(todosData);
+		});
+	}, []);
 
 	return (
 		<div className="flex justify-center align-start w-full-screen h-full-screen">
