@@ -13,7 +13,6 @@ function Exercise4(): JSX.Element {
 		todosCollection.onSnapshot((snapshot) => {
 			const todosData: any[] = [];
 			snapshot.forEach((doc) => todosData.push({ ...doc.data(), id: doc.id }));
-			console.log(todosData);
 			setTodoList(todosData);
 		});
 	}, []);
