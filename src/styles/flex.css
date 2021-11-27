@@ -29,3 +29,11 @@
 .align-start {
 	align-items: flex-start;
 }
+
+.align-stretch {
+	align-items: stretch;
+}
+
+.grow {
+	flex-grow: 2;
+}
