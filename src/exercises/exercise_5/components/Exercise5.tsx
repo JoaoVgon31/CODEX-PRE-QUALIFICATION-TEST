@@ -9,8 +9,8 @@ function Exercise5(): JSX.Element {
 
 	const handleGetCurrentDateTime = async (): Promise<void> => {
 		const currentDateTimeUTC = await queryWorldClockApi();
-		setCurrentUTCDateTime(new Date(currentDateTimeUTC).toUTCString);
-		setCurrentLocalDateTime(new Date(currentDateTimeUTC).toLocaleString);
+		setCurrentUTCDateTime(new Date(currentDateTimeUTC).toUTCString());
+		setCurrentLocalDateTime(new Date(currentDateTimeUTC).toLocaleString());
 		setCurrentBRDateTime(new Date(currentDateTimeUTC).toLocaleString('pt-br'));
 	};
 
@@ -18,9 +18,9 @@ function Exercise5(): JSX.Element {
 		<div className="flex justify-center align-center w-full-screen h-full-screen">
 			<div className="flex flex-col justify-center align-center w-1/4-screen">
 				<div className="flex justify-center">Data e hora UTC: {currentUTCDateTime}</div>
-				<div className="flex justify-center">Data e hora locais:{currentLocalDateTime}</div>
-				<div className="flex justify-center">Data e hora Brasil:{currentBRDateTime}</div>
-				<div className="flex w-full justify-evenly align-center">
+				<div className="flex justify-center">Data e hora locais: {currentLocalDateTime}</div>
+				<div className="flex justify-center">Data e hora Brasil: {currentBRDateTime}</div>
+				<div className="flex w-full justify-evenly align-center margin-y-small">
 					<Button variant="outlined" href="/">
 						Voltar
 					</Button>
