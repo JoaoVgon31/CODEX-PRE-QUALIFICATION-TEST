@@ -20,4 +20,4 @@ Invalid check digits CNPJ:
 
 ## How to run the code
 
-This Exercise can be executed at this page in the website: [access exercise 1 page](https://codex-pre-qualification-test.web.app/).
+This Exercise can be executed at this page in the website: [access exercise 1 page](https://codex-pre-qualification-test.web.app/exercise1).
