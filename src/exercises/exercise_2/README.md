@@ -7,13 +7,13 @@ In this resolution i used TDD (Test-driven development), so at first i used Jest
 ## Images showing the application running
 
 Rectangles A and B given in the example:
-[Rectangles A and B given in the example](assets/Rectangles1.png)
+![Rectangles A and B given in the example](assets/Rectangles1.png)
 
 Rectangles A and C given in the example:
-[Rectangles A and C given in the example](assets/Rectangles2.png)
+![Rectangles A and C given in the example](assets/Rectangles2.png)
 
 Rectangles B and C given in the example:
-[Rectangles B and C given in the example](assets/Rectangles3.png)
+![Rectangles B and C given in the example](assets/Rectangles3.png)
 
 ## How to run the code
 

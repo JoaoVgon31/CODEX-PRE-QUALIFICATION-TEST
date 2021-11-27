@@ -7,7 +7,7 @@ In this resolution i used firebase cloud functions as the server to deploy the f
 ## Images showing the application running
 
 Requesting the function from the server:
-[Requesting the function from the server](assets/RestServer1.png)
+![Requesting the function from the server](assets/RestServer1.png)
 
 ## How to run the code
 

@@ -7,16 +7,16 @@ In this resolution i used firebase firestore for storage. Therefore, i implement
 ## Images showing the application running
 
 Writing a new todo in the text field:
-[Writing a new todo](assets/Todos1.png)
+![Writing a new todo](assets/Todos1.png)
 
 Adding the todo by clicking in the add icon button:
-[Adding the todo](assets/Todos2.png)
+![Adding the todo](assets/Todos2.png)
 
 Then i added one more todo before deleting this one ('tarefa 2'):
-[Adding a new todo](assets/Todos2.png)
+![Adding a new todo](assets/Todos2.png)
 
 Deleting the todo by clicking in the delete icon button in the same row as the desired task:
-[Deleting the todo](assets/Todos3.png)
+![Deleting the todo](assets/Todos3.png)
 
 ## How to run the code
 

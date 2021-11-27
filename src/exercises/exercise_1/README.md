@@ -7,16 +7,16 @@ In this resolution i used TDD (Test-driven development), so at first i used Jest
 ## Images showing the application running
 
 Valid only numbers CNPJ:
-[Valid only numbers CNPJ](assets/CNPJ1.png)
+![Valid only numbers CNPJ](assets/CNPJ1.png)
 
 Valid formatted CNPJ:
-[Valid formatted CNPJ](assets/CNPJ2.png)
+![Valid formatted CNPJ](assets/CNPJ2.png)
 
 Invalid format CNPJ:
-[Valid CNPJ](assets/CNPJ3.png)
+![Valid CNPJ](assets/CNPJ3.png)
 
 Invalid check digits CNPJ:
-[Valid CNPJ](assets/CNPJ4.png)
+![Valid CNPJ](assets/CNPJ4.png)
 
 ## How to run the code
 

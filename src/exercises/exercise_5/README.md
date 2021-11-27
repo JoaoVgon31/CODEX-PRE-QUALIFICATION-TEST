@@ -7,7 +7,7 @@ In this resolution i used axios to query the server and the function that execut
 ## Images showing the application running
 
 Executing the query:
-[Executing the query](assets/RestClient1.png)
+![Executing the query](assets/RestClient1.png)
 
 ## How to run the code
 
